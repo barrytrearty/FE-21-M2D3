@@ -102,20 +102,37 @@
         - 4 destinations per row when the screen is very large
         - 3 destinations per row when you are on a tablet (or a smaller window)
         - 2 destinations per row when you are on a small screen -->
+
     <div class="container">
       <h2>Deal of the Week</h2>
-      <div class="row">
-        <div class="col-6 col-md-4 col-lg-3 mb-1">
-          <img src="travel-images/amsterdam.png" alt="amsterdam" />
-        </div>
-        <div class="col-6 col-md-4 col-lg-3 mb-1">
-          <img src="travel-images/dublin.png" alt="dublin" />
-        </div>
-        <div class="col-6 col-md-4 col-lg-3 mb-1">
-          <img src="travel-images/berlin.png" alt="berlin" />
-        </div>
-        <div class="col-6 col-md-4 col-lg-3 mb-1">
-          <img src="travel-images/rome.png" alt="rome" />
+      <p>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseExample"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          Collapse
+        </button>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          <div class="row">
+            <div class="col-6 col-md-4 col-lg-3 mb-1">
+              <img src="travel-images/amsterdam.png" alt="amsterdam" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mb-1">
+              <img src="travel-images/dublin.png" alt="dublin" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mb-1">
+              <img src="travel-images/berlin.png" alt="berlin" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mb-1">
+              <img src="travel-images/rome.png" alt="rome" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -126,26 +143,63 @@
             - 3 destinations per row when you are on a tablet (or a smaller window)
             - 2 destinations per row when you are on a small screen -->
 
+    <!-- <div class="container">
+      <h2></h2>
+      <p>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseExample"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          Collapse
+        </button>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          <!-- COPY IN HERE -->
+    <!-- </div>
+      </div>
+    </div> -->
+
     <div id="welcome-summer" class="container shadow-lg">
       <h2>Welcome Summer</h2>
-      <div class="row">
-        <div class="col-6 col-md-4 col-lg-2 mb-1">
-          <img src="travel-images/brussels.png" alt="brussels" />
-        </div>
-        <div class="col-6 col-md-4 col-lg-2 mb-1">
-          <img src="travel-images/bucharest.png" alt="bucharest.png" />
-        </div>
-        <div class="col-6 col-md-4 col-lg-2 mb-1">
-          <img src="travel-images/budapest.png" alt="budapest.png" />
-        </div>
-        <div class="col-6 col-md-4 col-lg-2 mb-1">
-          <img src="travel-images/copenhagen.png" alt="copenhagen" />
-        </div>
-        <div class="col-6 col-md-4 col-lg-2 mb-1">
-          <img src="travel-images/paris.png" alt="paris" />
-        </div>
-        <div class="col-6 col-md-4 col-lg-2 mb-1">
-          <img src="travel-images/london.png" alt=london.png" />
+      <p>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseExample1"
+          aria-expanded="false"
+          aria-controls="collapseExample1"
+        >
+          Collapse
+        </button>
+      </p>
+      <div class="collapse" id="collapseExample1">
+        <div class="card card-body">
+          <div class="row">
+            <div class="col-6 col-md-4 col-lg-2 mb-1 summer-deals">
+              <img src="travel-images/brussels.png" alt="brussels" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-1 summer-deals">
+              <img src="travel-images/bucharest.png" alt="bucharest.png" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-1 summer-deals">
+              <img src="travel-images/budapest.png" alt="budapest.png" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-1 summer-deals">
+              <img src="travel-images/copenhagen.png" alt="copenhagen" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-1 summer-deals">
+              <img src="travel-images/paris.png" alt="paris" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-1 summer-deals">
+              <img src="travel-images/london.png" alt=london.png" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -154,20 +208,37 @@
         - 66% of the page with a picture of the destination
         - 33% with Name, dates, price and a short description -->
     <!-- Ex 7) Make the "Deal of the day" section disappear on mobile screens -->
+
     <div id="deal-of-the-day" class="container d-none d-md-block">
       <h2>Deal of the Day</h2>
-      <div class="row">
-        <div class="col-8">
-          <img src="travel-images/paris2.png" alt="paris2" />
-        </div>
-        <div class="col-sm-d-none col-4">
-          <div class="card" style="width: 18rem">
-            <div class="card-header">Paris</div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">14th July - 21th July</li>
-              <li class="list-group-item">€500/person</li>
-              <li class="list-group-item">Breakfast Included</li>
-            </ul>
+      <p>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseExample2"
+          aria-expanded="false"
+          aria-controls="collapseExample2"
+        >
+          Collapse
+        </button>
+      </p>
+      <div class="collapse" id="collapseExample2">
+        <div class="card card-body">
+          <div class="row">
+            <div class="col-8">
+              <img src="travel-images/paris2.png" alt="paris2" />
+            </div>
+            <div class="col-sm-d-none col-4">
+              <div class="card" style="width: 18rem">
+                <div class="card-header">Paris</div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">14th July - 21th July</li>
+                  <li class="list-group-item">€500/person</li>
+                  <li class="list-group-item">Breakfast Included</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -179,77 +250,93 @@
 
     <div id="last-minute" class="container">
       <h2>Last Minute</h2>
-      <div class="row">
-        <div class="col-6">
-          <div class="card">
-            <img
-              src="travel-images/brussels.png"
-              class="card-img-top"
-              alt="brussels"
-            />
-            <!-- <div class="card-body"> -->
-            <!-- <h5 class="card-title">Brussels</h5> -->
-            <!-- <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p> -->
-            <!-- </div> -->
-            <!-- <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-              <li class="list-group-item">A second item</li>
-              <li class="list-group-item">A third item</li>
-            </ul> -->
-          </div>
-          <!-- <img src="travel-images/brussels.png" alt="brussels" /> -->
-        </div>
+      <p>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseExample3"
+          aria-expanded="false"
+          aria-controls="collapseExample3"
+        >
+          Collapse
+        </button>
+      </p>
+      <div class="collapse" id="collapseExample3">
+        <div class="card card-body">
+          <div class="row">
+            <div class="col-6">
+              <div class="card">
+                <img
+                  src="travel-images/brussels.png"
+                  class="card-img-top"
+                  alt="brussels"
+                />
+                <!-- <div class="card-body"> -->
+                <!-- <h5 class="card-title">Brussels</h5> -->
+                <!-- <p class="card-text">
+                        Some quick example text to build on the card title and make up
+                        the bulk of the card's content.
+                      </p> -->
+                <!-- </div> -->
+                <!-- <ul class="list-group list-group-flush">
+                      <li class="list-group-item">An item</li>
+                      <li class="list-group-item">A second item</li>
+                      <li class="list-group-item">A third item</li>
+                    </ul> -->
+              </div>
+              <!-- <img src="travel-images/brussels.png" alt="brussels" /> -->
+            </div>
 
-        <div class="col-6">
-          <div class="card">
-            <img
-              src="travel-images/bucharest.png"
-              class="card-img-top"
-              alt="bucharest"
-            />
-          </div>
-        </div>
+            <div class="col-6">
+              <div class="card">
+                <img
+                  src="travel-images/bucharest.png"
+                  class="card-img-top"
+                  alt="bucharest"
+                />
+              </div>
+            </div>
 
-        <div class="col-6">
-          <div class="card">
-            <img
-              src="travel-images/budapest.png"
-              class="card-img-top"
-              alt="budapest.png"
-            />
-          </div>
-        </div>
+            <div class="col-6">
+              <div class="card">
+                <img
+                  src="travel-images/budapest.png"
+                  class="card-img-top"
+                  alt="budapest.png"
+                />
+              </div>
+            </div>
 
-        <div class="col-6">
-          <div class="card">
-            <img
-              src="travel-images/copenhagen.png"
-              class="card-img-top"
-              alt="copenhagen.png"
-            />
-          </div>
-        </div>
+            <div class="col-6">
+              <div class="card">
+                <img
+                  src="travel-images/copenhagen.png"
+                  class="card-img-top"
+                  alt="copenhagen.png"
+                />
+              </div>
+            </div>
 
-        <div class="col-6">
-          <div class="card">
-            <img
-              src="travel-images/paris.png"
-              class="card-img-top"
-              alt="paris"
-            />
-          </div>
-        </div>
+            <div class="col-6">
+              <div class="card">
+                <img
+                  src="travel-images/paris.png"
+                  class="card-img-top"
+                  alt="paris"
+                />
+              </div>
+            </div>
 
-        <div class="col-6">
-          <div class="card">
-            <img
-              src="travel-images/london.png"
-              class="card-img-top"
-              alt="london"
-            />
+            <div class="col-6">
+              <div class="card">
+                <img
+                  src="travel-images/london.png"
+                  class="card-img-top"
+                  alt="london"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -304,14 +391,82 @@
         <ul class="nav justify-content-center">
           <p>Address: 21 Strive Street, Stockholm, Sweden</p>
 
-          <li class="nav-item mx-5 mb-5">
+          <!-- <li class="nav-item mx-5 mb-3">
             <button type="button" class="btn btn-info">Contact us</button>
           </li>
-        </ul>
+        </ul> -->
+
+        <button
+          type="button"
+          class="btn btn-info mx-5 mb-3"
+          data-toggle="modal"
+          data-target="#exampleModal"
+          data-whatever="@mdo"
+        >
+          Contact us
+        </button>
+
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New account</h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="recipient-name" class="col-form-label"
+                      >Username:</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="recipient-name"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label
+                      for="message-text"
+                      type="password"
+                      class="col-form-label"
+                      >Password:</label
+                    >
+                    <textarea class="form-control" id="password"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">Sign up</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </footer>
     </div>
 
     <!-- Ex 11) Create a button next to each section to collapse and reopen the given section -->
+
     <!-- Ex 12) Create a method that counts the number of "travels" on the page -->
     <!-- Ex 13) Create a modal view with a message and a email field -->
     <!-- Ex 14) When the user clicks on "contact us" the modal is displayed -->
