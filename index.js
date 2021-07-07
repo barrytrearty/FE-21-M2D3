@@ -5,7 +5,7 @@ const cards = document.querySelectorAll("div .card");
 const cardsBody = document.querySelectorAll("#last-minute .card");
 const summerDeals = document.querySelectorAll(".summer-deals");
 
-console.log(cards);
+// console.log(cards);
 
 const countTravels = function () {
   return images.length;
